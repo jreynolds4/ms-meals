@@ -1,0 +1,8 @@
+# Javascript
+**/node_modules/**
+**/dist/**
+#**/server/config/**
+
+# MAC Files
+
+**.DS_Store
