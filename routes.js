@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-const express = require('express');
+const express = require('express')
 const uuid = require('uuid');
 const IS_OFFLINE = process.env.NODE_ENV !== 'production';
 const MEALS_TABLE = process.env.TABLE;
@@ -23,3 +23,5 @@ router.get('/meals', (req, res) => {
         res.json(result.Items);
     });
 });
+
+module.exports = router;
